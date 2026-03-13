@@ -1,9 +1,11 @@
 # Ex.No:1(D) USER DEFINED METHOD.
 
 ## AIM:
+
 To create a Java program print area of rectangle by defining instance method and local variable value as 10,20 .[Class Name is ‘Area’ function name is ‘calculateArea()’ and return type of function is ’void’
 
 ## ALGORITHM :
+
 1.	Start the program.
 2.	Define a class named 'Area'
 3.	Declare a public method named 'calculateArea' with no parameters
@@ -18,29 +20,40 @@ a)	Create an instance of the 'Area' class called 'rectangle'
 b)	Call the 'calculateArea' method on the 'rectangle' object
 
 
-
-
 ## PROGRAM:
  ```
-/*
+
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Priya Vashini P
+RegisterNumber: 212224240119
+
 ```
 
 ## Sourcecode.java:
-
-
-
-
-
-
-
+```
+import java.util.*;
+public class Area 
+{
+       public void calculateArea() 
+       {
+        float length = 10;
+        float width = 20;
+        float area = length * width;
+        System.out.println("Area of Rectangle is " + area);
+       }
+       public static void main(String[] args) 
+       {
+       Area obj=new Area();
+       obj.calculateArea();
+       }
+}
+```
 ## OUTPUT:
 
+![image](https://github.com/user-attachments/assets/b381fe96-a993-437d-9d4d-98d2cc383e19)
 
 
 ## RESULT:
 Thus, the Java program to print area of rectangle by defining instance method and local variable value as 10,20 was created successfully.
+
 
